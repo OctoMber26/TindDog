@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#title{
+    background-color: #ff4c68;
+    
+}
+@media screen and (max-width: 1024px){ 
+
+    #title{
+        text-align: center;
+    }
+
+    #title .row img{
+        margin: 0 auto 0 auto;
+        transform: rotate(0deg);
+    }
+
+    #features{
+        margin-top: 100px;
+    }
+    #features p{
+        margin-bottom:50px;
+
+        
+    }
+    #pricing .row{
+        margin: 0 100px 0 100px;
+    }
+
+   
+  
+    
+}
+svg {
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .active svg {
+    transform: rotate(90deg);
+  }
+  path {
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  path:nth-child(1) {
+    transform-origin: 36% 40%;
+  }
+  path:nth-child(2) {
+    stroke-dasharray: 29 299;
+  }
+  path:nth-child(3) {
+    transform-origin: 35% 63%;
+  }
+  path:nth-child(4) {
+    stroke-dasharray: 29 299;
+  }
+  path:nth-child(5) {
+    transform-origin: 61% 52%;
+  }
+  path:nth-child(6) {
+    transform-origin: 62% 52%;
+  }
+  .active path:nth-child(1) {
+    transform: translateX(9px) translateY(1px) rotate(45deg);
+  }
+  .active path:nth-child(2) {
+    stroke-dasharray: 225 299;
+    stroke-dashoffset: -72px;
+  }
+  .active path:nth-child(3) {
+    transform: translateX(9px) translateY(1px) rotate(-45deg);
+  }
+  .active path:nth-child(4) {
+    stroke-dasharray: 225 299;
+    stroke-dashoffset: -72px;
+  }
+  .active path:nth-child(5) {
+    transform: translateX(9px) translateY(1px) rotate(-45deg);
+  }
+  .active path:nth-child(6) {
+    transform: translateX(9px) translateY(1px) rotate(45deg);
+  }
+  
+#tittle  button .navbar-toggler{
+    font-size: 30px;
+}
+
+#title .container-fluid{
+    padding: 3%  15%;
+}
+
+
+#title .navbar{
+    margin: 3px -225px;
+}
+
+
+#title .navbar-brand{
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+
+#title ul li{
+    margin: 30px;
+    font-weight: bolder;
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+}
+
+#title .text h1{
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+   #title .btn{
+       font-size: 20px;
+       margin:20px 10px;
+   }
+
+   #title img{
+       margin-left: 100px;
+       transform: rotate(25deg);
+       width: 60%;
+   }
+
+   #features{
+       position: relative;
+       z-index: 1;
+   }
+
+   #features .texte{
+       margin-top: -70px;
+       text-align: center;
+       padding:5%;
+       background-color: white;
+   }
+
+   #features i{
+      font-size: 50px;
+      color: #ef8172;
+   }
+
+   #features i:hover{
+       color:#ff4c68;
+   }
+
+   #features .texte h3{
+      margin-top: 10px;
+      font-family: "Ubuntu";
+       font-weight: bolder;
+       font-size: 1.5rem;
+   }
+
+   #features .texte p{
+       position: static;
+       color: #8f8f8f;
+       
+
+   }
+
+   #testimonials{
+       text-align: center;
+       padding: 7%  15%;
+       background-color:#ef8172 ;
+       
+   }
+
+   #testimonials h2{
+       font-family: "Monserrant-Blac";
+       font-size: 60px;
+       font-weight: bolder;
+       color:white
+   }
+
+   #testimonials img{
+       margin-top: 30px;
+       width: 10%;
+       border-radius: 50%;
+       margin-right: 40px;
+   }
+
+   #testimonials em{
+       color:white;
+       font-size: 20px;
+   }
+
+   #press{
+       background-color: #ef8172;
+       text-align: center;
+       
+   }
+
+   #press img{
+       width: 15%;
+       margin: 20px 20px 50px;
+   }
+   #carouselExampleControls button{
+    margin: -70px;
+       
+   }
+
+   #pricing{
+       padding: 5%;
+   }
+
+   #pricing:hover{
+       background-color:#ff4c68 ;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-delay: 0.1s;
+  color: #fff;
+  
+   }
+  
+   #cta{
+       background-color:#ef8172;
+       text-align: center;
+       padding: 10%;
+   }
+   #cta h3{
+       font-family: "Ubuntu";
+       font-size: 70px;
+       color: #fff;
+       
+   }
+
+   #cta button{
+       margin:50px 40px 50px;
+       font-size:30px;
+
+   }
+
+   #footer{
+       text-align: center;
+       color: grey;
+   }
+
+   #footer i{
+       font-size: 20px;
+       margin-top: 60px;
+     padding: 1%;
+   }
+  
+   .fa-twitter{
+       color: rgb(51, 122, 253);
+   }
+
+   .fa-facebook{
+       color: royalblue;
+   }
+
+   .fa-instagram-square{
+    
+    color: #bc1888; 
+    
+   }
+
+.fa-envelope{
+    color: rgb(90, 156, 90);
+}
+ 
